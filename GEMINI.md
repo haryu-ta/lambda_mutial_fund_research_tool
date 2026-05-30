@@ -1,4 +1,4 @@
 <!-- SPECKIT START -->
-For additional context about technologies to be used, project structure,
-shell commands, and other important information, read the current plan
+- 回答は日本語でお願いします。
+- コマンドを実行した後に次にどう動けばいいかを提案してください。
 <!-- SPECKIT END -->
