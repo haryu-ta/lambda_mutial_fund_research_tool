@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mutual Fund LINE Notifier EventBridge Trigger",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-zA-Z0-9]{8}$",
+        "description": "8-character alphanumeric Yahoo! Finance fund ID"
+      },
+      "display_name": {
+        "type": "string",
+        "description": "Display name used in the LINE notification"
+      }
+    },
+    "required": ["id", "display_name"]
+  }
+}

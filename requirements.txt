@@ -1,0 +1,4 @@
+beautifulsoup4
+line-bot-sdk
+pytest
+python-dotenv
